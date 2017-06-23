@@ -1,110 +1,41 @@
 *{
-	padding: 0px;
 	margin: 0px;
+	font-size: 16px;
+	font-family: Arial;
 }
 
-/*body*/
-body{
-	background-image: url("http://wallpapercave.com/wp/TYyMte2.jpg");
-	background-repeat: no-repeat;
-	width: 100%;
-	background-size: 100%;
-	background-attachment: fixed;
+#container{
+	margin: 0px;
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
-.title {
-	font-size: 7.5em;
-	text-align: center;
+#header p{
+	margin-top: 0px;
+	background-color: #ff4e1e;
+	padding-bottom: 50px;
 }
 
-a:link{
-	text-decoration: none;
-	color: Purple;
+#menu{
+	background-color: #ffc511;
+	padding: 10px;
 }
 
-.title::selection{
-	background-color: gray;
+#sidebar{
+	background-color: #25bfff;
+	width: 10%;
+	display: inline-block;
+	padding: 10px;
 }
 
-.title:hover{
-	cursor: pointer;
+#main{
+	display: inline-block;
+	width: 85%;
 }
 
-.image1{
-	width: 20%;
-	position: absolute;
-	top: 25%;
-	left: 75%;
-	transition: transform 1s ease-in-out;
-}
-
-.image1:hover{
-	transform: scale(1.1);
-	cursor: pointer;
-}
-
-.image2{
-	width: 13%;
-	position: absolute;
-	top: 25%;
-	left: 10%;
-	transition: transform 1s ease-in-out;
-}
-
-.image2:hover{
-	transform: scale(1.1);
-	cursor: pointer;	
-}
-
-table{
-	background-color: gray;
-	opacity: 0.5;
-	
-}
-
-#block{
-	background-color: purple;
-	width: 300px;
-	height: 150px;
-	position: absolute;
-	top: 40%;
-	left: 40%;
-	opacity: 0.5;
-	border: 5px solid black;
-	z-index: -1;
-}
-
-.logo1{
-	width: 7%;
-	position: absolute;
-	top: 40%;
-	left: 40%;
-}
-
-.logo2{
-	width: 6%;
-	position: absolute;
-	top: 40%;
-	left: 56%;
-}
-
-.text1{
-	font-size: 2em;
-	position: absolute;
-	top: 40%;
-	left: 49.5%;
-}
-
-.text2{
-	font-size: 2em;
-	position: absolute;
-	top: 56%;
-	left: 41.5%;
-}
-
-.text3{
-	font-size: 2em;
-	position: absolute;
-	top: 56%;
-	left: 57%;
+/*#main p:nth-child
+*/
+#footer{
+	background-color: #29ff4b;
+	padding: 20px;
 }
